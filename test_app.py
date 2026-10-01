@@ -10,4 +10,4 @@ def client():
 def test_home(client):
     response = client.get('/')
     assert response.status_code == 200
-    assert b"Hello from DevOps Pipeline!" in response.data
+    assert b"Hello from Janhavi's DevOps pipeline" in response.data
