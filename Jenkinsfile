@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     environment {
+        PATH = "/opt/homebrew/bin:/usr/local/bin:${env.PATH}"
         DOCKER_IMAGE = 'devops-demo'
         DEFAULT_DOCKER_USER = 'janhavi1418'
     }
