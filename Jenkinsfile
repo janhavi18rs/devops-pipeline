@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'devops-demo'
+        DEFAULT_DOCKER_USER = 'janhavi1418'
     }
 
     stages {
